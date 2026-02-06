@@ -27,6 +27,9 @@ jobs:
       - name: Install shards
         run: shards install
 
+      - name: Create bin directory
+        run: mkdir -p bin
+
       - name: Build
         run: |
           crystal build --release -o bin/ocelot-linux-x86_64 cli.cr
@@ -52,6 +55,9 @@ jobs:
 
       - run: shards install
 
+      - name: Create bin directory
+        run: mkdir -p bin
+
       - name: Build
         run: |
           crystal build --release -o bin/ocelot-macos-x86_64 cli.cr
@@ -76,6 +82,9 @@ jobs:
           crystal: latest
 
       - run: shards install
+
+      - name: Create bin directory
+        run: mkdir -p bin
 
       - name: Build
         run: |
