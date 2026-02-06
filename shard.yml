@@ -1,0 +1,18 @@
+name: ocelot
+version: 0.1.0
+
+authors:
+  - Ocelot Team <team@ocelot.dev>
+
+description: |
+  A genuine JSON compiler and decompiler for massive-scale package manager registries.
+
+targets:
+  ocelot:
+    main: src/cli.cr
+
+crystal: 1.18.2
+
+license: MIT
+
+
