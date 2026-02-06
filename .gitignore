@@ -1,0 +1,10 @@
+.DS_Store
+/.local
+/.version
+/tmp
+/bin
+/lib
+/.crystal
+*.exe
+*.o
+*.obj
