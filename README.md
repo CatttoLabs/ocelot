@@ -26,30 +26,27 @@
 ## Installation
 
 ```bash
-git clone https://github.com/catttolabs/ocelot.git
-cd ocelot
-shards install
-crystal build --release -o bin/ocelot cli.cr
+curl -fsSL https://raw.githubusercontent.com/CatttoLabs/ocelot/refs/heads/main/install.sh | bash # YOLO
 ```
 
 ## Usage
 
-### Compile JSON to .ocel
+1. Compile JSON to .ocel
 
 ```bash
-./bin/ocelot compile input.json -o output.ocel
+ocelot compile input.json -o output.ocel
 ```
 
-### Decompile .ocel to JSON
+2. Decompile .ocel to JSON
 
 ```bash
-./bin/ocelot decompile output.ocel -o input.json
+ocelot decompile output.ocel -o input.json
 ```
 
-### Find Subtrees
+3. Find Subtrees
 
 ```bash
-./bin/ocelot find output.ocel --query '{ "packageName": "git-cli" }' -o git-cli-package.json
+ocelot find output.ocel --query '{ "packageName": "git-cli" }' -o git-cli-package.json
 ```
 
 ## Binary Format
