@@ -4,6 +4,13 @@
 
 # ocelot
 
+![GitHub release](https://img.shields.io/github/v/release/catttolabs/ocelot?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/catttolabs/ocelot?style=for-the-badge)
+![GitHub license](https://img.shields.io/github/license/catttolabs/ocelot?style=for-the-badge)
+![Release workflow](https://img.shields.io/github/actions/workflow/status/catttolabs/ocelot/release.yml?style=for-the-badge)
+![Last commit](https://img.shields.io/github/last-commit/catttolabs/ocelot?style=for-the-badge)
+
+
 </div>
 
 **Ocelot** is a JSON compiler and decompiler designed for massive-scale datasets.
